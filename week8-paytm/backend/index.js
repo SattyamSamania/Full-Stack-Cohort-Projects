@@ -7,8 +7,8 @@ const cors = require("cors");
 app.use(cors());
 app.use(bodyParser.json());
 
-// const mainRouter = require("./routes");
-// const rootRouter = require("./routes");
+
+
 const userRouter = require('./routes/user');
 
 
