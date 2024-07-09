@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <div className="flex">
-        <aside className="fixed mt-0">
+        <aside className="fixed ">
           <Dashboard />
         </aside>
         <main className=" w-full ml-60">
@@ -35,7 +35,7 @@ const App = () => {
               </svg>
             </div>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-3 mx-10 ">
+          <div className="grid grid-cols-1   md:grid-cols-1 lg:grid-cols-3 gap-4 mt-3 mx-10 ">
             <RevenueCard
               title={"Next payout"}
               amount={"2,312.23"}
