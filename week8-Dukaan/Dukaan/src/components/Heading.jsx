@@ -4,7 +4,7 @@ const Heading = () => {
   return (
     <>
        <header className='' >
-        <main className='m-5 flex justify-between'>
+        <main className='md:m-5 my-4 flex justify-between'>
           
           <div className='flex  border-2 p-3 w-[25%] border-gray-100'>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6" >

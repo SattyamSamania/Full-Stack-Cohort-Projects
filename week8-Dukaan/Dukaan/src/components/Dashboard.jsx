@@ -1,10 +1,18 @@
 import React from "react";
+import { useState } from "react";
 import Image from '../assets/Image.png'
 
 const Dashboard = () => {
+
+  const [hideSidebar, setHideSidebar] = useState(false);
+
   return (
     <>
-      <main className="bg-[#1E2640] w-60 text-[#ffffff] flex flex-col  justify-between h-screen mt-0">
+   
+
+      <main className="bg-[#1E2640] w-60 text-[#ffffff] flex flex-col   justify-between h-screen mt-0">
+        
+    
         <div className="">
           <div className="flex p-3 gap-2 justify-between ">
 
