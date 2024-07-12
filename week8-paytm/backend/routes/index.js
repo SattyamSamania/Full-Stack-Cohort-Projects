@@ -1,12 +1,12 @@
-// const express = require('express');
-// const router = express.Router();
-// const userRouter = require('./user');
+const express = require('express');
+
+const userRouter = require('./user');
+const router = express.Router();
 
 
-// router.get("/", (req, res) => {
-//   return res.send("<h1> You are on home route </h1>");
-// });
+router.use('/user', userRouter)
+router.get('/user', (req, res) => {
+    res.send('User page');
+})
 
-
-
-// module.exports = router;
+module.exports = router;
