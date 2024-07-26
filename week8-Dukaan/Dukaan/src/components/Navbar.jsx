@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-      <nav className='flex justify-between m-10'>
+      <nav className='flex justify-between  md:m-10'>
 
         <div className='flex gap-2 items-center'>
             <p className='text-xl font-medium'>Payouts</p>
