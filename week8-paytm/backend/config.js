@@ -2,10 +2,8 @@
 
 // jwt Token
 
-
-const JWT_SECRET = 'sattyamsecretkey'
- 
+const JWT_SECRET = "sattyamsecretkey234";
 
 module.exports = {
-	JWT_SECRET
-}
+  JWT_SECRET,
+};
