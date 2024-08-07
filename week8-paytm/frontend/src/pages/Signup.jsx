@@ -24,7 +24,7 @@ const Signup = () => {
           <InputBox onChange={ e=> {setLastName(e.target.value);}}  placeholder={"Enter last name here"} label={"Last Name"} />
           <InputBox onChange={e=> {setEmail(e.target.value);}}  placeholder={"Enter your email"} label={"Email"} />
           <InputBox onChange={e=> {setPassword(e.target.value);}}  placeholder={"Enter your password"} label={"Password"} />
-          <Button label={"Signup"}  / >
+          <Button label={"Signup"}  />
           <BottomWarning  label={"Already have an account?"} buttonText={"Login"} to={"/signin"}  />
 
         </div>
